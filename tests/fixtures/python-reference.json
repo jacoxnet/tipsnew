@@ -1,0 +1,1965 @@
+{
+ "_comment": "Synthetic TIPS/CPI fixtures (not real Treasury data). Expected values were produced by the original Django core/ladder_calc.py and core/dbstuff.py:parse_csv.",
+ "generated_in_year": 2026,
+ "tips": [
+  {
+   "cusip": "912828V49",
+   "dated_date": "2016-01-15",
+   "maturity_date": "2026-01-15",
+   "coupon_rate": 0.125,
+   "ref_cpi": 230.0,
+   "index_ratio": 1.5125
+  },
+  {
+   "cusip": "9128282L3",
+   "dated_date": "2016-07-15",
+   "maturity_date": "2026-07-15",
+   "coupon_rate": 0.25,
+   "ref_cpi": 231.5,
+   "index_ratio": 1.5
+  },
+  {
+   "cusip": "9128283R9",
+   "dated_date": "2017-01-15",
+   "maturity_date": "2027-01-15",
+   "coupon_rate": 0.375,
+   "ref_cpi": 233.0,
+   "index_ratio": 1.4875
+  },
+  {
+   "cusip": "912828Y38",
+   "dated_date": "2017-07-15",
+   "maturity_date": "2027-07-15",
+   "coupon_rate": 0.5,
+   "ref_cpi": 234.5,
+   "index_ratio": 1.475
+  },
+  {
+   "cusip": "9128285W6",
+   "dated_date": "2018-01-15",
+   "maturity_date": "2028-01-15",
+   "coupon_rate": 0.625,
+   "ref_cpi": 236.0,
+   "index_ratio": 1.4625
+  },
+  {
+   "cusip": "9128287D6",
+   "dated_date": "2018-07-15",
+   "maturity_date": "2028-07-15",
+   "coupon_rate": 0.75,
+   "ref_cpi": 237.5,
+   "index_ratio": 1.45
+  },
+  {
+   "cusip": "912828Z37",
+   "dated_date": "2019-01-15",
+   "maturity_date": "2029-01-15",
+   "coupon_rate": 1.125,
+   "ref_cpi": 239.0,
+   "index_ratio": 1.4375
+  },
+  {
+   "cusip": "912828ZZ6",
+   "dated_date": "2019-07-15",
+   "maturity_date": "2029-07-15",
+   "coupon_rate": 1.75,
+   "ref_cpi": 240.5,
+   "index_ratio": 1.425
+  },
+  {
+   "cusip": "91282CBF7",
+   "dated_date": "2020-01-15",
+   "maturity_date": "2030-01-15",
+   "coupon_rate": 2.125,
+   "ref_cpi": 242.0,
+   "index_ratio": 1.4125
+  },
+  {
+   "cusip": "91282CCM1",
+   "dated_date": "2020-07-15",
+   "maturity_date": "2030-07-15",
+   "coupon_rate": 0.125,
+   "ref_cpi": 243.5,
+   "index_ratio": 1.4
+  },
+  {
+   "cusip": "91282CDX6",
+   "dated_date": "2021-01-15",
+   "maturity_date": "2031-01-15",
+   "coupon_rate": 0.25,
+   "ref_cpi": 245.0,
+   "index_ratio": 1.3875
+  },
+  {
+   "cusip": "91282CEZ0",
+   "dated_date": "2021-07-15",
+   "maturity_date": "2031-07-15",
+   "coupon_rate": 0.375,
+   "ref_cpi": 246.5,
+   "index_ratio": 1.375
+  },
+  {
+   "cusip": "91282CGK1",
+   "dated_date": "2022-01-15",
+   "maturity_date": "2032-01-15",
+   "coupon_rate": 0.5,
+   "ref_cpi": 248.0,
+   "index_ratio": 1.3625
+  },
+  {
+   "cusip": "91282CHP9",
+   "dated_date": "2022-07-15",
+   "maturity_date": "2032-07-15",
+   "coupon_rate": 0.625,
+   "ref_cpi": 249.5,
+   "index_ratio": 1.35
+  },
+  {
+   "cusip": "91282CJY8",
+   "dated_date": "2023-01-15",
+   "maturity_date": "2033-01-15",
+   "coupon_rate": 0.75,
+   "ref_cpi": 251.0,
+   "index_ratio": 1.3375
+  },
+  {
+   "cusip": "91282CLE9",
+   "dated_date": "2023-07-15",
+   "maturity_date": "2033-07-15",
+   "coupon_rate": 1.125,
+   "ref_cpi": 252.5,
+   "index_ratio": 1.325
+  },
+  {
+   "cusip": "91282CML2",
+   "dated_date": "2024-01-15",
+   "maturity_date": "2034-01-15",
+   "coupon_rate": 1.75,
+   "ref_cpi": 254.0,
+   "index_ratio": 1.3125
+  },
+  {
+   "cusip": "91282CNS6",
+   "dated_date": "2024-07-15",
+   "maturity_date": "2034-07-15",
+   "coupon_rate": 2.125,
+   "ref_cpi": 255.5,
+   "index_ratio": 1.3
+  },
+  {
+   "cusip": "91282CPU9",
+   "dated_date": "2025-01-15",
+   "maturity_date": "2035-01-15",
+   "coupon_rate": 0.125,
+   "ref_cpi": 257.0,
+   "index_ratio": 1.2875
+  },
+  {
+   "cusip": "912810QF8",
+   "dated_date": "2025-07-15",
+   "maturity_date": "2035-07-15",
+   "coupon_rate": 0.25,
+   "ref_cpi": 258.5,
+   "index_ratio": 1.275
+  },
+  {
+   "cusip": "912810QP6",
+   "dated_date": "2026-01-15",
+   "maturity_date": "2036-01-15",
+   "coupon_rate": 0.375,
+   "ref_cpi": 260.0,
+   "index_ratio": 1.2625
+  },
+  {
+   "cusip": "912810QV3",
+   "dated_date": "2026-07-15",
+   "maturity_date": "2036-07-15",
+   "coupon_rate": 0.5,
+   "ref_cpi": 261.5,
+   "index_ratio": 1.25
+  },
+  {
+   "cusip": "912810RA8",
+   "dated_date": "2027-01-15",
+   "maturity_date": "2037-01-15",
+   "coupon_rate": 0.625,
+   "ref_cpi": 263.0,
+   "index_ratio": 1.2375
+  },
+  {
+   "cusip": "912810RF7",
+   "dated_date": "2027-07-15",
+   "maturity_date": "2037-07-15",
+   "coupon_rate": 0.75,
+   "ref_cpi": 264.5,
+   "index_ratio": 1.225
+  },
+  {
+   "cusip": "912810RL4",
+   "dated_date": "2028-01-15",
+   "maturity_date": "2038-01-15",
+   "coupon_rate": 1.125,
+   "ref_cpi": 266.0,
+   "index_ratio": 1.2125
+  },
+  {
+   "cusip": "912810RR1",
+   "dated_date": "2028-07-15",
+   "maturity_date": "2038-07-15",
+   "coupon_rate": 1.75,
+   "ref_cpi": 267.5,
+   "index_ratio": 1.2
+  },
+  {
+   "cusip": "912810RW0",
+   "dated_date": "2029-01-15",
+   "maturity_date": "2039-01-15",
+   "coupon_rate": 2.125,
+   "ref_cpi": 269.0,
+   "index_ratio": 1.1875
+  },
+  {
+   "cusip": "912810SB5",
+   "dated_date": "2029-07-15",
+   "maturity_date": "2039-07-15",
+   "coupon_rate": 0.125,
+   "ref_cpi": 270.5,
+   "index_ratio": 1.175
+  },
+  {
+   "cusip": "912810SG4",
+   "dated_date": "2030-01-15",
+   "maturity_date": "2040-01-15",
+   "coupon_rate": 0.25,
+   "ref_cpi": 272.0,
+   "index_ratio": 1.1625
+  },
+  {
+   "cusip": "912810SM1",
+   "dated_date": "2030-07-15",
+   "maturity_date": "2040-07-15",
+   "coupon_rate": 0.375,
+   "ref_cpi": 273.5,
+   "index_ratio": 1.15
+  },
+  {
+   "cusip": "912810SV1",
+   "dated_date": "2031-01-15",
+   "maturity_date": "2041-01-15",
+   "coupon_rate": 0.5,
+   "ref_cpi": 275.0,
+   "index_ratio": 1.1375
+  },
+  {
+   "cusip": "912810TE8",
+   "dated_date": "2031-07-15",
+   "maturity_date": "2041-07-15",
+   "coupon_rate": 0.625,
+   "ref_cpi": 276.5,
+   "index_ratio": 1.125
+  },
+  {
+   "cusip": "912810TP3",
+   "dated_date": "2032-01-15",
+   "maturity_date": "2042-01-15",
+   "coupon_rate": 0.75,
+   "ref_cpi": 278.0,
+   "index_ratio": 1.1125
+  },
+  {
+   "cusip": "912810TY4",
+   "dated_date": "2032-07-15",
+   "maturity_date": "2042-07-15",
+   "coupon_rate": 1.125,
+   "ref_cpi": 279.5,
+   "index_ratio": 1.1
+  },
+  {
+   "cusip": "912810UH9",
+   "dated_date": "2033-01-15",
+   "maturity_date": "2043-01-15",
+   "coupon_rate": 1.75,
+   "ref_cpi": 281.0,
+   "index_ratio": 1.0875
+  },
+  {
+   "cusip": "912810US5",
+   "dated_date": "2033-07-15",
+   "maturity_date": "2043-07-15",
+   "coupon_rate": 2.125,
+   "ref_cpi": 282.5,
+   "index_ratio": 1.075
+  },
+  {
+   "cusip": "91282CDC2",
+   "dated_date": "2034-01-15",
+   "maturity_date": "2044-01-15",
+   "coupon_rate": 0.125,
+   "ref_cpi": 284.0,
+   "index_ratio": 1.0625
+  },
+  {
+   "cusip": "91282CFR7",
+   "dated_date": "2034-07-15",
+   "maturity_date": "2044-07-15",
+   "coupon_rate": 0.25,
+   "ref_cpi": 285.5,
+   "index_ratio": 1.05
+  },
+  {
+   "cusip": "91282CJH5",
+   "dated_date": "2035-01-15",
+   "maturity_date": "2045-01-15",
+   "coupon_rate": 0.375,
+   "ref_cpi": 287.0,
+   "index_ratio": 1.0375
+  },
+  {
+   "cusip": "91282CLV1",
+   "dated_date": "2035-07-15",
+   "maturity_date": "2045-07-15",
+   "coupon_rate": 0.5,
+   "ref_cpi": 288.5,
+   "index_ratio": 1.025
+  },
+  {
+   "cusip": "91282CPH8",
+   "dated_date": "2036-01-15",
+   "maturity_date": "2046-01-15",
+   "coupon_rate": 0.625,
+   "ref_cpi": 290.0,
+   "index_ratio": 1.0125
+  }
+ ],
+ "cpi": [
+  {
+   "as_of_date": "2020-01-01",
+   "cpi_value": 257.971
+  },
+  {
+   "as_of_date": "2022-03-01",
+   "cpi_value": 287.504
+  },
+  {
+   "as_of_date": "2024-01-01",
+   "cpi_value": 308.417
+  },
+  {
+   "as_of_date": "2025-02-01",
+   "cpi_value": 319.082
+  },
+  {
+   "as_of_date": "2025-10-01",
+   "cpi_value": 324.461
+  },
+  {
+   "as_of_date": "2026-07-01",
+   "cpi_value": 331.25
+  }
+ ],
+ "holdings": [
+  {
+   "cusip": "912828V49",
+   "account_type": "taxable",
+   "quantity": 3
+  },
+  {
+   "cusip": "9128282L3",
+   "account_type": "pretax",
+   "quantity": 5
+  },
+  {
+   "cusip": "9128283R9",
+   "account_type": "roth",
+   "quantity": 2
+  },
+  {
+   "cusip": "912828Y38",
+   "account_type": "taxable",
+   "quantity": 4
+  },
+  {
+   "cusip": "912828Y38",
+   "account_type": "pretax",
+   "quantity": 1
+  },
+  {
+   "cusip": "912828Z37",
+   "account_type": "roth",
+   "quantity": 7
+  },
+  {
+   "cusip": "91282CCM1",
+   "account_type": "pretax",
+   "quantity": 10
+  }
+ ],
+ "ladder_scenarios": [
+  {
+   "name": "basic",
+   "specs": {
+    "tax_rate": 24.0,
+    "start_year": 2026,
+    "end_year": 2032,
+    "base_cash_flow": 9000.0,
+    "inflate_base_cf": false,
+    "base_cash_flow_date": "2024-01-01",
+    "tax_effect_inflation": false,
+    "assumed_inflation_rate": 0.0,
+    "use_pretax": false,
+    "additional_flows": []
+   },
+   "expected": [
+    {
+     "year": 2026,
+     "target": 9000.0,
+     "coupon_income": 203.15625,
+     "principal_income": 12037.5,
+     "tax_drag": 1818.9112499999999,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 12240.65625,
+     "pretax_balance": 3240.65625,
+     "pretax_shortfall": 0,
+     "net_flow": 10421.745,
+     "shortfall": -1421.7450000000008,
+     "balance": 1421.7450000000008
+    },
+    {
+     "year": 2027,
+     "target": 9000.0,
+     "coupon_income": 178.734375,
+     "principal_income": 10350.0,
+     "tax_drag": 367.05,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 10528.734375,
+     "pretax_balance": 1528.734375,
+     "pretax_shortfall": 0,
+     "net_flow": 10161.684375,
+     "shortfall": -1161.6843750000007,
+     "balance": 1161.6843750000007
+    },
+    {
+     "year": 2028,
+     "target": 9000.0,
+     "coupon_income": 130.703125,
+     "principal_income": 0.0,
+     "tax_drag": 4.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 130.703125,
+     "pretax_balance": -8869.296875,
+     "pretax_shortfall": 8869.296875,
+     "net_flow": 126.503125,
+     "shortfall": 8873.496875,
+     "balance": -8873.496875
+    },
+    {
+     "year": 2029,
+     "target": 9000.0,
+     "coupon_income": 130.703125,
+     "principal_income": 10062.5,
+     "tax_drag": 4.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 10193.203125,
+     "pretax_balance": 1193.203125,
+     "pretax_shortfall": 0,
+     "net_flow": 10189.003125,
+     "shortfall": -1189.0031249999993,
+     "balance": 1189.0031249999993
+    },
+    {
+     "year": 2030,
+     "target": 9000.0,
+     "coupon_income": 17.5,
+     "principal_income": 14000.0,
+     "tax_drag": 3364.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 14017.5,
+     "pretax_balance": 5017.5,
+     "pretax_shortfall": 0,
+     "net_flow": 10653.3,
+     "shortfall": -1653.2999999999993,
+     "balance": 1653.2999999999993
+    },
+    {
+     "year": 2031,
+     "target": 9000.0,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -9000.0,
+     "pretax_shortfall": 9000.0,
+     "net_flow": 0.0,
+     "shortfall": 9000.0,
+     "balance": -9000.0
+    },
+    {
+     "year": 2032,
+     "target": 9000.0,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -9000.0,
+     "pretax_shortfall": 9000.0,
+     "net_flow": 0.0,
+     "shortfall": 9000.0,
+     "balance": -9000.0
+    }
+   ]
+  },
+  {
+   "name": "phantom_income",
+   "specs": {
+    "tax_rate": 24.0,
+    "start_year": 2026,
+    "end_year": 2032,
+    "base_cash_flow": 9000.0,
+    "inflate_base_cf": false,
+    "base_cash_flow_date": "2024-01-01",
+    "tax_effect_inflation": true,
+    "assumed_inflation_rate": 2.5,
+    "use_pretax": false,
+    "additional_flows": []
+   },
+   "expected": [
+    {
+     "year": 2026,
+     "target": 9000.0,
+     "coupon_income": 203.15625,
+     "principal_income": 12037.5,
+     "tax_drag": 1881.53625,
+     "principal_adjustment": 260.9375,
+     "pretax_cash_flow": 12240.65625,
+     "pretax_balance": 3240.65625,
+     "pretax_shortfall": 0,
+     "net_flow": 10359.119999999999,
+     "shortfall": -1359.119999999999,
+     "balance": 1359.119999999999
+    },
+    {
+     "year": 2027,
+     "target": 9000.0,
+     "coupon_income": 178.734375,
+     "principal_income": 10350.0,
+     "tax_drag": 402.45,
+     "principal_adjustment": 147.5,
+     "pretax_cash_flow": 10528.734375,
+     "pretax_balance": 1528.734375,
+     "pretax_shortfall": 0,
+     "net_flow": 10126.284375,
+     "shortfall": -1126.2843749999993,
+     "balance": 1126.2843749999993
+    },
+    {
+     "year": 2028,
+     "target": 9000.0,
+     "coupon_income": 130.703125,
+     "principal_income": 0.0,
+     "tax_drag": 4.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 130.703125,
+     "pretax_balance": -8869.296875,
+     "pretax_shortfall": 8869.296875,
+     "net_flow": 126.503125,
+     "shortfall": 8873.496875,
+     "balance": -8873.496875
+    },
+    {
+     "year": 2029,
+     "target": 9000.0,
+     "coupon_income": 130.703125,
+     "principal_income": 10062.5,
+     "tax_drag": 4.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 10193.203125,
+     "pretax_balance": 1193.203125,
+     "pretax_shortfall": 0,
+     "net_flow": 10189.003125,
+     "shortfall": -1189.0031249999993,
+     "balance": 1189.0031249999993
+    },
+    {
+     "year": 2030,
+     "target": 9000.0,
+     "coupon_income": 17.5,
+     "principal_income": 14000.0,
+     "tax_drag": 3364.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 14017.5,
+     "pretax_balance": 5017.5,
+     "pretax_shortfall": 0,
+     "net_flow": 10653.3,
+     "shortfall": -1653.2999999999993,
+     "balance": 1653.2999999999993
+    },
+    {
+     "year": 2031,
+     "target": 9000.0,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -9000.0,
+     "pretax_shortfall": 9000.0,
+     "net_flow": 0.0,
+     "shortfall": 9000.0,
+     "balance": -9000.0
+    },
+    {
+     "year": 2032,
+     "target": 9000.0,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -9000.0,
+     "pretax_shortfall": 9000.0,
+     "net_flow": 0.0,
+     "shortfall": 9000.0,
+     "balance": -9000.0
+    }
+   ]
+  },
+  {
+   "name": "additional_flows",
+   "specs": {
+    "tax_rate": 24.0,
+    "start_year": 2026,
+    "end_year": 2032,
+    "base_cash_flow": 9000.0,
+    "inflate_base_cf": false,
+    "base_cash_flow_date": "2024-01-01",
+    "tax_effect_inflation": false,
+    "assumed_inflation_rate": 0.0,
+    "use_pretax": false,
+    "additional_flows": [
+     {
+      "year": 2027,
+      "amount": 15000.0
+     },
+     {
+      "year": 2030,
+      "amount": 2000.0
+     }
+    ]
+   },
+   "expected": [
+    {
+     "year": 2026,
+     "target": 9000.0,
+     "coupon_income": 203.15625,
+     "principal_income": 12037.5,
+     "tax_drag": 1818.9112499999999,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 12240.65625,
+     "pretax_balance": 3240.65625,
+     "pretax_shortfall": 0,
+     "net_flow": 10421.745,
+     "shortfall": -1421.7450000000008,
+     "balance": 1421.7450000000008
+    },
+    {
+     "year": 2027,
+     "target": 15000.0,
+     "coupon_income": 178.734375,
+     "principal_income": 10350.0,
+     "tax_drag": 367.05,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 10528.734375,
+     "pretax_balance": -4471.265625,
+     "pretax_shortfall": 4471.265625,
+     "net_flow": 10161.684375,
+     "shortfall": 4838.315624999999,
+     "balance": -4838.315624999999
+    },
+    {
+     "year": 2028,
+     "target": 9000.0,
+     "coupon_income": 130.703125,
+     "principal_income": 0.0,
+     "tax_drag": 4.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 130.703125,
+     "pretax_balance": -8869.296875,
+     "pretax_shortfall": 8869.296875,
+     "net_flow": 126.503125,
+     "shortfall": 8873.496875,
+     "balance": -8873.496875
+    },
+    {
+     "year": 2029,
+     "target": 9000.0,
+     "coupon_income": 130.703125,
+     "principal_income": 10062.5,
+     "tax_drag": 4.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 10193.203125,
+     "pretax_balance": 1193.203125,
+     "pretax_shortfall": 0,
+     "net_flow": 10189.003125,
+     "shortfall": -1189.0031249999993,
+     "balance": 1189.0031249999993
+    },
+    {
+     "year": 2030,
+     "target": 2000.0,
+     "coupon_income": 17.5,
+     "principal_income": 14000.0,
+     "tax_drag": 3364.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 14017.5,
+     "pretax_balance": 12017.5,
+     "pretax_shortfall": 0,
+     "net_flow": 10653.3,
+     "shortfall": -8653.3,
+     "balance": 8653.3
+    },
+    {
+     "year": 2031,
+     "target": 9000.0,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -9000.0,
+     "pretax_shortfall": 9000.0,
+     "net_flow": 0.0,
+     "shortfall": 9000.0,
+     "balance": -9000.0
+    },
+    {
+     "year": 2032,
+     "target": 9000.0,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -9000.0,
+     "pretax_shortfall": 9000.0,
+     "net_flow": 0.0,
+     "shortfall": 9000.0,
+     "balance": -9000.0
+    }
+   ]
+  },
+  {
+   "name": "inflate_base",
+   "specs": {
+    "tax_rate": 24.0,
+    "start_year": 2026,
+    "end_year": 2032,
+    "base_cash_flow": 9000.0,
+    "inflate_base_cf": true,
+    "base_cash_flow_date": "2022-03-01",
+    "tax_effect_inflation": false,
+    "assumed_inflation_rate": 0.0,
+    "use_pretax": false,
+    "additional_flows": []
+   },
+   "expected": [
+    {
+     "year": 2026,
+     "target": 10369.420947186822,
+     "coupon_income": 203.15625,
+     "principal_income": 12037.5,
+     "tax_drag": 1818.9112499999999,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 12240.65625,
+     "pretax_balance": 1871.2353028131784,
+     "pretax_shortfall": 0,
+     "net_flow": 10421.745,
+     "shortfall": -52.32405281317915,
+     "balance": 52.32405281317915
+    },
+    {
+     "year": 2027,
+     "target": 10369.420947186822,
+     "coupon_income": 178.734375,
+     "principal_income": 10350.0,
+     "tax_drag": 367.05,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 10528.734375,
+     "pretax_balance": 159.31342781317835,
+     "pretax_shortfall": 0,
+     "net_flow": 10161.684375,
+     "shortfall": 207.73657218682092,
+     "balance": -207.73657218682092
+    },
+    {
+     "year": 2028,
+     "target": 10369.420947186822,
+     "coupon_income": 130.703125,
+     "principal_income": 0.0,
+     "tax_drag": 4.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 130.703125,
+     "pretax_balance": -10238.717822186822,
+     "pretax_shortfall": 10238.717822186822,
+     "net_flow": 126.503125,
+     "shortfall": 10242.917822186822,
+     "balance": -10242.917822186822
+    },
+    {
+     "year": 2029,
+     "target": 10369.420947186822,
+     "coupon_income": 130.703125,
+     "principal_income": 10062.5,
+     "tax_drag": 4.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 10193.203125,
+     "pretax_balance": -176.21782218682165,
+     "pretax_shortfall": 176.21782218682165,
+     "net_flow": 10189.003125,
+     "shortfall": 180.41782218682238,
+     "balance": -180.41782218682238
+    },
+    {
+     "year": 2030,
+     "target": 10369.420947186822,
+     "coupon_income": 17.5,
+     "principal_income": 14000.0,
+     "tax_drag": 3364.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 14017.5,
+     "pretax_balance": 3648.0790528131784,
+     "pretax_shortfall": 0,
+     "net_flow": 10653.3,
+     "shortfall": -283.8790528131776,
+     "balance": 283.8790528131776
+    },
+    {
+     "year": 2031,
+     "target": 10369.420947186822,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -10369.420947186822,
+     "pretax_shortfall": 10369.420947186822,
+     "net_flow": 0.0,
+     "shortfall": 10369.420947186822,
+     "balance": -10369.420947186822
+    },
+    {
+     "year": 2032,
+     "target": 10369.420947186822,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -10369.420947186822,
+     "pretax_shortfall": 10369.420947186822,
+     "net_flow": 0.0,
+     "shortfall": 10369.420947186822,
+     "balance": -10369.420947186822
+    }
+   ]
+  },
+  {
+   "name": "use_pretax",
+   "specs": {
+    "tax_rate": 32.0,
+    "start_year": 2026,
+    "end_year": 2032,
+    "base_cash_flow": 9000.0,
+    "inflate_base_cf": false,
+    "base_cash_flow_date": "2024-01-01",
+    "tax_effect_inflation": false,
+    "assumed_inflation_rate": 0.0,
+    "use_pretax": true,
+    "additional_flows": []
+   },
+   "expected": [
+    {
+     "year": 2026,
+     "target": 9000.0,
+     "coupon_income": 203.15625,
+     "principal_income": 12037.5,
+     "tax_drag": 2425.215,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 12240.65625,
+     "pretax_balance": 3240.65625,
+     "pretax_shortfall": 0,
+     "net_flow": 9815.44125,
+     "shortfall": -815.4412499999999,
+     "balance": 815.4412499999999
+    },
+    {
+     "year": 2027,
+     "target": 9000.0,
+     "coupon_income": 178.734375,
+     "principal_income": 10350.0,
+     "tax_drag": 489.40000000000003,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 10528.734375,
+     "pretax_balance": 1528.734375,
+     "pretax_shortfall": 0,
+     "net_flow": 10039.334375,
+     "shortfall": -1039.3343750000004,
+     "balance": 1039.3343750000004
+    },
+    {
+     "year": 2028,
+     "target": 9000.0,
+     "coupon_income": 130.703125,
+     "principal_income": 0.0,
+     "tax_drag": 5.6000000000000005,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 130.703125,
+     "pretax_balance": -8869.296875,
+     "pretax_shortfall": 8869.296875,
+     "net_flow": 125.103125,
+     "shortfall": 8874.896875,
+     "balance": -8874.896875
+    },
+    {
+     "year": 2029,
+     "target": 9000.0,
+     "coupon_income": 130.703125,
+     "principal_income": 10062.5,
+     "tax_drag": 5.6000000000000005,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 10193.203125,
+     "pretax_balance": 1193.203125,
+     "pretax_shortfall": 0,
+     "net_flow": 10187.603125,
+     "shortfall": -1187.6031249999996,
+     "balance": 1187.6031249999996
+    },
+    {
+     "year": 2030,
+     "target": 9000.0,
+     "coupon_income": 17.5,
+     "principal_income": 14000.0,
+     "tax_drag": 4485.6,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 14017.5,
+     "pretax_balance": 5017.5,
+     "pretax_shortfall": 0,
+     "net_flow": 9531.9,
+     "shortfall": -531.8999999999996,
+     "balance": 531.8999999999996
+    },
+    {
+     "year": 2031,
+     "target": 9000.0,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -9000.0,
+     "pretax_shortfall": 9000.0,
+     "net_flow": 0.0,
+     "shortfall": 9000.0,
+     "balance": -9000.0
+    },
+    {
+     "year": 2032,
+     "target": 9000.0,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -9000.0,
+     "pretax_shortfall": 9000.0,
+     "net_flow": 0.0,
+     "shortfall": 9000.0,
+     "balance": -9000.0
+    }
+   ]
+  },
+  {
+   "name": "everything",
+   "specs": {
+    "tax_rate": 24.0,
+    "start_year": 2025,
+    "end_year": 2035,
+    "base_cash_flow": 9000.0,
+    "inflate_base_cf": true,
+    "base_cash_flow_date": "2020-01-01",
+    "tax_effect_inflation": true,
+    "assumed_inflation_rate": 3.0,
+    "use_pretax": true,
+    "additional_flows": [
+     {
+      "year": 2028,
+      "amount": 20000.0
+     }
+    ]
+   },
+   "expected": [
+    {
+     "year": 2025,
+     "target": 11556.53154811975,
+     "coupon_income": 203.15625,
+     "principal_income": 0.0,
+     "tax_drag": 94.06125,
+     "principal_adjustment": 313.125,
+     "pretax_cash_flow": 203.15625,
+     "pretax_balance": -11353.37529811975,
+     "pretax_shortfall": 11353.37529811975,
+     "net_flow": 109.095,
+     "shortfall": 11447.436548119751,
+     "balance": -11447.436548119751
+    },
+    {
+     "year": 2026,
+     "target": 11556.53154811975,
+     "coupon_income": 203.15625,
+     "principal_income": 12037.5,
+     "tax_drag": 1894.06125,
+     "principal_adjustment": 313.125,
+     "pretax_cash_flow": 12240.65625,
+     "pretax_balance": 684.1247018802496,
+     "pretax_shortfall": 0,
+     "net_flow": 10346.595,
+     "shortfall": 1209.936548119751,
+     "balance": -1209.936548119751
+    },
+    {
+     "year": 2027,
+     "target": 11556.53154811975,
+     "coupon_income": 178.734375,
+     "principal_income": 10350.0,
+     "tax_drag": 409.53,
+     "principal_adjustment": 177.0,
+     "pretax_cash_flow": 10528.734375,
+     "pretax_balance": -1027.7971731197504,
+     "pretax_shortfall": 1027.7971731197504,
+     "net_flow": 10119.204375,
+     "shortfall": 1437.327173119751,
+     "balance": -1437.327173119751
+    },
+    {
+     "year": 2028,
+     "target": 25681.18121804389,
+     "coupon_income": 130.703125,
+     "principal_income": 0.0,
+     "tax_drag": 4.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 130.703125,
+     "pretax_balance": -25550.47809304389,
+     "pretax_shortfall": 25550.47809304389,
+     "net_flow": 126.503125,
+     "shortfall": 25554.67809304389,
+     "balance": -25554.67809304389
+    },
+    {
+     "year": 2029,
+     "target": 11556.53154811975,
+     "coupon_income": 130.703125,
+     "principal_income": 10062.5,
+     "tax_drag": 4.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 10193.203125,
+     "pretax_balance": -1363.3284231197504,
+     "pretax_shortfall": 1363.3284231197504,
+     "net_flow": 10189.003125,
+     "shortfall": 1367.528423119751,
+     "balance": -1367.528423119751
+    },
+    {
+     "year": 2030,
+     "target": 11556.53154811975,
+     "coupon_income": 17.5,
+     "principal_income": 14000.0,
+     "tax_drag": 3364.2,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 14017.5,
+     "pretax_balance": 2460.9684518802496,
+     "pretax_shortfall": 0,
+     "net_flow": 10653.3,
+     "shortfall": 903.2315481197511,
+     "balance": -903.2315481197511
+    },
+    {
+     "year": 2031,
+     "target": 11556.53154811975,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -11556.53154811975,
+     "pretax_shortfall": 11556.53154811975,
+     "net_flow": 0.0,
+     "shortfall": 11556.53154811975,
+     "balance": -11556.53154811975
+    },
+    {
+     "year": 2032,
+     "target": 11556.53154811975,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -11556.53154811975,
+     "pretax_shortfall": 11556.53154811975,
+     "net_flow": 0.0,
+     "shortfall": 11556.53154811975,
+     "balance": -11556.53154811975
+    },
+    {
+     "year": 2033,
+     "target": 11556.53154811975,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -11556.53154811975,
+     "pretax_shortfall": 11556.53154811975,
+     "net_flow": 0.0,
+     "shortfall": 11556.53154811975,
+     "balance": -11556.53154811975
+    },
+    {
+     "year": 2034,
+     "target": 11556.53154811975,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -11556.53154811975,
+     "pretax_shortfall": 11556.53154811975,
+     "net_flow": 0.0,
+     "shortfall": 11556.53154811975,
+     "balance": -11556.53154811975
+    },
+    {
+     "year": 2035,
+     "target": 11556.53154811975,
+     "coupon_income": 0.0,
+     "principal_income": 0.0,
+     "tax_drag": 0.0,
+     "principal_adjustment": 0.0,
+     "pretax_cash_flow": 0.0,
+     "pretax_balance": -11556.53154811975,
+     "pretax_shortfall": 11556.53154811975,
+     "net_flow": 0.0,
+     "shortfall": 11556.53154811975,
+     "balance": -11556.53154811975
+    }
+   ]
+  }
+ ],
+ "csv_cases": [
+  {
+   "name": "TIPSLadder-01KPNX669D1W3FGCKPD3NVCFGV-portfolio.csv",
+   "input": "912828V49, 3, 2027\n9128282L3, 3, 2027\n9128283R9, 3, 2028\n912828Y38, 3, 2028\n9128285W6, 2, 2029\n9128287D6, 2, 2029\n912828Z37, 3, 2030\n912828ZZ6, 3, 2030\n91282CBF7, 3, 2031\n91282CCM1, 3, 2031\n91282CDX6, 3, 2032\n91282CEZ0, 3, 2032\n91282CGK1, 4, 2033\n91282CHP9, 4, 2033\n91282CJY8, 3, 2034\n91282CLE9, 3, 2034\n91282CML2, 4, 2035\n91282CNS6, 4, 2035\n91282CPU9, 8, 2036\n912810QF8, 2, 2037\n91282CPU9, 5, 2037\n912810QF8, 2, 2038\n91282CPU9, 4, 2038\n912810QF8, 4, 2039\n91282CPU9, 2, 2039\n912810QF8, 6, 2040\n912810QP6, 5, 2041\n912810QV3, 6, 2042\n912810RA8, 6, 2043\n912810RF7, 6, 2044\n912810RL4, 7, 2045\n912810RR1, 6, 2046\n912810RW0, 7, 2047\n912810SB5, 7, 2048\n912810SG4, 7, 2049\n912810SM1, 7, 2050\n912810SV1, 7, 2051\n912810TE8, 8, 2052\n912810TP3, 8, 2053\n912810TY4, 9, 2054\n912810UH9, 10, 2055\n912810US5, 10, 2056\n",
+   "ok": true,
+   "end_year": 2043,
+   "specs": {},
+   "holdings": [
+    {
+     "cusip": "912828V49",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "9128282L3",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "9128283R9",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912828Y38",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "9128285W6",
+     "quantity": 2,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "9128287D6",
+     "quantity": 2,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912828Z37",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912828ZZ6",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CBF7",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CCM1",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CDX6",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CEZ0",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CGK1",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CHP9",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CJY8",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CLE9",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CML2",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CNS6",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 8,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 2,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 5,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 2,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 2,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 6,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QP6",
+     "quantity": 5,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QV3",
+     "quantity": 6,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RA8",
+     "quantity": 6,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RF7",
+     "quantity": 6,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RL4",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RR1",
+     "quantity": 6,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RW0",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810SB5",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810SG4",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810SM1",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810SV1",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810TE8",
+     "quantity": 8,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810TP3",
+     "quantity": 8,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810TY4",
+     "quantity": 9,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810UH9",
+     "quantity": 10,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810US5",
+     "quantity": 10,
+     "account_type": "pretax"
+    }
+   ]
+  },
+  {
+   "name": "cusip-qty-2026-04-21.csv",
+   "input": "cusip,qty\n91282CDC2,25\n91282CFR7,27\n91282CJH5,28\n91282CLV1,30\n91282CPH8,31\n91282CCM1,26\n91282CEZ0,28\n91282CHP9,30\n91282CLE9,31\n91282CNS6,32\n91282CPU9,86\n912810QF8,60\n912810QP6,25\n912810QV3,26\n912810RA8,27\n912810RF7,28\n912810RL4,28\n912810RR1,29\n912810RW0,29",
+   "ok": true,
+   "end_year": 2046,
+   "specs": {},
+   "holdings": [
+    {
+     "cusip": "91282CDC2",
+     "quantity": 25,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CFR7",
+     "quantity": 27,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CJH5",
+     "quantity": 28,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CLV1",
+     "quantity": 30,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPH8",
+     "quantity": 31,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CCM1",
+     "quantity": 26,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CEZ0",
+     "quantity": 28,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CHP9",
+     "quantity": 30,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CLE9",
+     "quantity": 31,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CNS6",
+     "quantity": 32,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 86,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 60,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QP6",
+     "quantity": 25,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QV3",
+     "quantity": 26,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RA8",
+     "quantity": 27,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RF7",
+     "quantity": 28,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RL4",
+     "quantity": 28,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RR1",
+     "quantity": 29,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RW0",
+     "quantity": 29,
+     "account_type": "pretax"
+    }
+   ]
+  },
+  {
+   "name": "sample_ladder.csv",
+   "input": "cusip,quantity,account\n912828V49,3,taxable\n9128282L3,3,taxable\n9128283R9,3,roth\n912828Y38,3,pretax\n9128285W6,2,pretax\n9128287D6,2,taxable\n912828Z37,3,roth\n912828ZZ6,3,roth\n91282CBF7,3,pretax\n91282CCM1,3,taxable\n91282CDX6,3,pretax\n91282CEZ0,3,roth\n91282CGK1,4,roth\n91282CHP9,4,pretax\n91282CJY8,3,taxable\n91282CLE9,3,pretax\n91282CML2,4,pretax\n91282CNS6,4,pretax\n91282CPU9,8,roth\n912810QF8,2,pretax\n91282CPU9,5,taxable\n912810QF8,2,pretax\n91282CPU9,4,pretax\n912810QF8,4,pretax\n91282CPU9,2,taxable\n912810QF8,6,taxable\n912810QP6,5,pretax\n912810QV3,6,pretax\n912810RA8,6,roth\n912810RF7,6,taxable\n912810RL4,7,pretax\n912810RR1,6,pretax\n912810RW0,7,pretax\n912810SB5,7,taxable\n912810SG4,7,pretax\n912810SM1,7,taxable\n912810SV1,7,pretax\n912810TE8,8,taxable\n912810TP3,8,pretax\n912810TY4,9,pretax\n912810UH9,10,pretax\n912810US5,10,pretax\n",
+   "ok": true,
+   "end_year": 2043,
+   "specs": {},
+   "holdings": [
+    {
+     "cusip": "912828V49",
+     "quantity": 3,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "9128282L3",
+     "quantity": 3,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "9128283R9",
+     "quantity": 3,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "912828Y38",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "9128285W6",
+     "quantity": 2,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "9128287D6",
+     "quantity": 2,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912828Z37",
+     "quantity": 3,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "912828ZZ6",
+     "quantity": 3,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "91282CBF7",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CCM1",
+     "quantity": 3,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "91282CDX6",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CEZ0",
+     "quantity": 3,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "91282CGK1",
+     "quantity": 4,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "91282CHP9",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CJY8",
+     "quantity": 3,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "91282CLE9",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CML2",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CNS6",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 8,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 2,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 5,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 2,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 2,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 6,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810QP6",
+     "quantity": 5,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QV3",
+     "quantity": 6,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RA8",
+     "quantity": 6,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "912810RF7",
+     "quantity": 6,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810RL4",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RR1",
+     "quantity": 6,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RW0",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810SB5",
+     "quantity": 7,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810SG4",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810SM1",
+     "quantity": 7,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810SV1",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810TE8",
+     "quantity": 8,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810TP3",
+     "quantity": 8,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810TY4",
+     "quantity": 9,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810UH9",
+     "quantity": 10,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810US5",
+     "quantity": 10,
+     "account_type": "pretax"
+    }
+   ]
+  },
+  {
+   "name": "test_sample.csv",
+   "input": "Type,Field1,Field2,Field3,Field4\nPARAM,tax_rate,24,,\nPARAM,tax_effect_inflation,true,,\nPARAM,assumed_inflation_rate,3,,\nPARAM,start_year,2027,,\nPARAM,end_year,2056,,\nPARAM,base_cash_flow,10000,,\nPARAM,inflate_base_cf,true,,\nPARAM,base_cash_flow_date,2025-02,,\nPARAM,use_pretax,false,,\nOWNED_TIP,cusip,912828V49,taxable,3\nOWNED_TIP,cusip,9128282L3,taxable,3\nOWNED_TIP,cusip,9128283R9,roth,3\nOWNED_TIP,cusip,912828Y38,pretax,3\nOWNED_TIP,cusip,9128285W6,pretax,2\nOWNED_TIP,cusip,9128287D6,taxable,2\nOWNED_TIP,cusip,912828Z37,roth,3\nOWNED_TIP,cusip,912828ZZ6,roth,3\nOWNED_TIP,cusip,91282CBF7,pretax,3\nOWNED_TIP,cusip,91282CCM1,taxable,3\nOWNED_TIP,cusip,91282CDX6,pretax,3\nOWNED_TIP,cusip,91282CEZ0,roth,3\nOWNED_TIP,cusip,91282CGK1,roth,4\nOWNED_TIP,cusip,91282CHP9,pretax,4\nOWNED_TIP,cusip,91282CJY8,taxable,3\nOWNED_TIP,cusip,91282CLE9,pretax,3\nOWNED_TIP,cusip,91282CML2,pretax,4\nOWNED_TIP,cusip,91282CNS6,pretax,4\nOWNED_TIP,cusip,91282CPU9,roth,8\nOWNED_TIP,cusip,912810QF8,pretax,2\nOWNED_TIP,cusip,91282CPU9,taxable,5\nOWNED_TIP,cusip,912810QF8,pretax,2\nOWNED_TIP,cusip,91282CPU9,pretax,4\nOWNED_TIP,cusip,912810QF8,pretax,4\nOWNED_TIP,cusip,91282CPU9,taxable,2\nOWNED_TIP,cusip,912810QF8,taxable,6\nOWNED_TIP,cusip,912810QP6,pretax,5\nOWNED_TIP,cusip,912810QV3,pretax,6\nOWNED_TIP,cusip,912810RA8,roth,6\nOWNED_TIP,cusip,912810RF7,taxable,6\nOWNED_TIP,cusip,912810RL4,pretax,7\nOWNED_TIP,cusip,912810RR1,pretax,6\nOWNED_TIP,cusip,912810RW0,pretax,7\nOWNED_TIP,cusip,912810SB5,taxable,7\nOWNED_TIP,cusip,912810SG4,pretax,7\nOWNED_TIP,cusip,912810SM1,taxable,7\nOWNED_TIP,cusip,912810SV1,pretax,7\nOWNED_TIP,cusip,912810TE8,taxable,8\nOWNED_TIP,cusip,912810TP3,pretax,8\nOWNED_TIP,cusip,912810TY4,pretax,9\nOWNED_TIP,cusip,912810UH9,pretax,10\nOWNED_TIP,cusip,912810US5,pretax,10\n",
+   "ok": true,
+   "end_year": 2043,
+   "specs": {
+    "tax_rate": 24,
+    "tax_effect_inflation": true,
+    "assumed_inflation_rate": 3,
+    "start_year": 2027,
+    "end_year": 2056,
+    "base_cash_flow": 10000,
+    "inflate_base_cf": true,
+    "base_cash_flow_date": "2025-02-01",
+    "use_pretax": false
+   },
+   "holdings": [
+    {
+     "cusip": "912828V49",
+     "quantity": 3,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "9128282L3",
+     "quantity": 3,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "9128283R9",
+     "quantity": 3,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "912828Y38",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "9128285W6",
+     "quantity": 2,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "9128287D6",
+     "quantity": 2,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912828Z37",
+     "quantity": 3,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "912828ZZ6",
+     "quantity": 3,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "91282CBF7",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CCM1",
+     "quantity": 3,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "91282CDX6",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CEZ0",
+     "quantity": 3,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "91282CGK1",
+     "quantity": 4,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "91282CHP9",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CJY8",
+     "quantity": 3,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "91282CLE9",
+     "quantity": 3,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CML2",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CNS6",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 8,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 2,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 5,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 2,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 4,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "91282CPU9",
+     "quantity": 2,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810QF8",
+     "quantity": 6,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810QP6",
+     "quantity": 5,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810QV3",
+     "quantity": 6,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RA8",
+     "quantity": 6,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "912810RF7",
+     "quantity": 6,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810RL4",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RR1",
+     "quantity": 6,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810RW0",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810SB5",
+     "quantity": 7,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810SG4",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810SM1",
+     "quantity": 7,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810SV1",
+     "quantity": 7,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810TE8",
+     "quantity": 8,
+     "account_type": "taxable"
+    },
+    {
+     "cusip": "912810TP3",
+     "quantity": 8,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810TY4",
+     "quantity": 9,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810UH9",
+     "quantity": 10,
+     "account_type": "pretax"
+    },
+    {
+     "cusip": "912810US5",
+     "quantity": 10,
+     "account_type": "pretax"
+    }
+   ]
+  },
+  {
+   "name": "tips-ladder-build-2026-04-21.csv",
+   "input": "\"CUSIP\",\"Maturity\",\"Yield\",\"FundedYear\",\"Amount\",\"Cost\",\"Quantity\"\n\"91282CDC2\",\"Oct 15, 2026\",\"-1.280%\",\"2026\",\"40,265\",\"30,060\",\"25\"\n\"91282CFR7\",\"Oct 15, 2027\",\"0.618%\",\"2027\",\"40,116\",\"30,185\",\"27\"\n\"91282CJH5\",\"Oct 15, 2028\",\"0.933%\",\"2028\",\"39,720\",\"30,885\",\"28\"\n\"91282CLV1\",\"Oct 15, 2029\",\"1.102%\",\"2029\",\"40,293\",\"31,667\",\"30\"\n\"91282CPH8\",\"Oct 15, 2030\",\"1.247%\",\"2030\",\"39,949\",\"31,108\",\"31\"\n\"91282CCM1\",\"Jul 15, 2031\",\"1.334%\",\"2031\",\"39,979\",\"29,727\",\"26\"\n\"91282CEZ0\",\"Jul 15, 2032\",\"1.483%\",\"2032\",\"39,731\",\"29,846\",\"28\"\n\"91282CHP9\",\"Jul 15, 2033\",\"1.614%\",\"2033\",\"40,321\",\"31,710\",\"30\"\n\"91282CLE9\",\"Jul 15, 2034\",\"1.732%\",\"2034\",\"39,883\",\"32,592\",\"31\"\n\"91282CNS6\",\"Jul 15, 2035\",\"1.842%\",\"2035\",\"39,560\",\"32,612\",\"32\"\n\"91282CPU9\",\"Jan 15, 2036\",\"1.921%\",\"2036\",\"40,255\",\"34,007\",\"34\"\n\"91282CPU9\",\"Jan 15, 2036\",\"\",\"Gap\",\"52,712\",\"52,010\",\"52\"\n\"912810QF8\",\"Feb 15, 2040\",\"\",\"Gap\",\"54,930\",\"53,673\",\"36\"\n\"912810QF8\",\"Feb 15, 2040\",\"2.230%\",\"2040\",\"40,660\",\"35,782\",\"24\"\n\"912810QP6\",\"Feb 15, 2041\",\"2.310%\",\"2041\",\"39,743\",\"36,392\",\"25\"\n\"912810QV3\",\"Feb 15, 2042\",\"2.442%\",\"2042\",\"39,501\",\"29,253\",\"26\"\n\"912810RA8\",\"Feb 15, 2043\",\"2.490%\",\"2043\",\"40,015\",\"28,550\",\"27\"\n\"912810RF7\",\"Feb 15, 2044\",\"2.526%\",\"2044\",\"40,508\",\"32,761\",\"28\"\n\"912810RL4\",\"Feb 15, 2045\",\"2.594%\",\"2045\",\"39,690\",\"28,198\",\"28\"\n\"912810RR1\",\"Feb 15, 2046\",\"2.628%\",\"2046\",\"40,482\",\"29,942\",\"29\"\n\"912810RW0\",\"Feb 15, 2047\",\"2.649%\",\"2047\",\"39,375\",\"28,129\",\"29\"\n\"Total\",\"\",\"\",\"\",\"867,689\",\"699,087\",\"626\"",
+   "ok": false,
+   "error": "ValueError(\"invalid literal for int() with base 10: 'oct 15, 2026'\")"
+  },
+  {
+   "name": "inline_old_coupon_maturity",
+   "input": "Type,Field1,Field2,Field3,Field4\nPARAM,tax_rate,22,,\nADD_FLOW,2030,12000,,\nOWNED_TIP,coupon_maturity,\"0.750000%,2028-07-15\",roth,4\nOWNED_TIP,cusip,912828v49,TAXABLE,2\nOWNED_TIP,cusip,999999999,taxable,2\n",
+   "ok": true,
+   "end_year": 2028,
+   "specs": {
+    "tax_rate": 22,
+    "additional_flows": [
+     {
+      "year": "2030",
+      "amount": "12000"
+     }
+    ]
+   },
+   "holdings": [
+    {
+     "cusip": "9128287D6",
+     "quantity": 4,
+     "account_type": "roth"
+    },
+    {
+     "cusip": "912828V49",
+     "quantity": 2,
+     "account_type": "taxable"
+    }
+   ]
+  }
+ ]
+}
